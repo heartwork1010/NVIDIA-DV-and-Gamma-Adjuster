@@ -1,3 +1,12 @@
+/* 
+	Because there are a lot of other NVIDIA dll functions imported to AHK included in this script, 
+	only the gamma level is using the NVIDIA control panel to physically adjust the slider.
+	
+	The DV function can be used with or without the NVIDIA control panel open, and
+	the "ControlSend, msctls_trackbar323" lines can be commented out if setting the gamma level
+	is not wanted.
+*/
+
 #SingleInstance Force
 #Persistent
 SendMode Input

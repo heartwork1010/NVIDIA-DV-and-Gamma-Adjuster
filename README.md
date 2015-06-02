@@ -5,7 +5,7 @@ Script for adjusting NVIDIA Digital Vibrance and gamma levels with keyboard shor
   Get <a href="http://ahkscript.org/">Autohotkey</a>.<br><br>
 
 <b>Step 1:</b><br>
-  Run script.<br><br>
+  Run the NVIDIA DV and Gamma Adjuster.ahk script.<br><br>
   
 <b>Step 2:</b><br>
   Open the Nvidia Control Panel.<br><br>

@@ -35,9 +35,8 @@ DVCSet:
     Gui, Submit, NoHide
     loop % arrCur.MaxIndex()
 	{
-        DVCS := DVCS%A_Index% > 100 ? 100 : DVCS%A_Index% < 0 ? 0 : DVCS%A_Index%
-        NVIDIA.SetDVCLevelEx(DVCS, A_Index - 1)
-        GuiControl,, DVCS%A_Index%, % DVCS
+        	DVCS := DVCS%A_Index% > 100 ? 100 : DVCS%A_Index% < 0 ? 0 : DVCS%A_Index%
+        	NVIDIA.SetDVCLevelEx(DVCS, A_Index - 1)
 	}
 return
 
@@ -45,7 +44,6 @@ DVCReset:
     loop % arrDef.MaxIndex()
     {
         NVIDIA.SetDVCLevelEx(arrDef[A_Index], A_Index - 1)
-        GuiControl,, DVCS%A_Index%, % arrCur[A_Index]
     }
 return
 
